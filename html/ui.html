@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>NYO TATTOO SHOP</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="loja-de-tattoo" style="display: none;">
+        <div class="container">
+            <div class="left-colum">
+                <div class="submenu-item subActive" onclick="selectPart(this)" data-idpart="head" data-title="Rosto">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813547835686992/head.png">
+                    </div>
+                </div>
+                <div class="submenu-item" onclick="selectPart(this)" data-idpart="torso" data-title="Torso">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813556019298325/torso.png">
+                    </div>
+                </div>
+                <div class="submenu-item" onclick="selectPart(this)" data-idpart="leftarm" data-title="Braço Esquerdo">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813549182844958/leftarm.png">
+                    </div>
+                </div>
+                <div class="submenu-item" onclick="selectPart(this)" data-idpart="rightarm" data-title="Braço Direito">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813552223584266/rightarm.png">
+                    </div>
+                </div>
+                <div class="submenu-item" onclick="selectPart(this)" data-idpart="leftleg" data-title="Perna Esquerda">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813550809841664/leftleg.png">
+                    </div>
+                </div>
+                <div class="submenu-item" onclick="selectPart(this)" data-idpart="rightleg" data-title="Perna Direita">
+                    <div class="icon-submenu">
+                        <img src="https://cdn.discordapp.com/attachments/746851286422519928/758813553808900146/rightleg.png">
+                    </div>
+                </div>                
+            </div>
+
+            <div class="right-colum">
+                <header>
+                    <h1>Rosto</h1>
+                </header>
+                <footer>
+                    
+                </footer>
+                <div class="bottom">
+                    <div class="color">
+                    </div>
+                    <div class="total">
+                        <span>Total</span>
+                        <strong style="float: right;color: #0c961f;padding-right: 20px;">R$ <span id="total">0</span></strong>
+                    </div>
+                    <div class="addCartbutton">
+                        <img id="payament" src="https://cdn.discordapp.com/attachments/746851286422519928/746851875982409738/Sem_Titulo-2.png"  style="height:36; width:36px; margin-left:10px; ">
+                    </div>
+                </div>
+
+            </div>
+            <div class="actions">
+                <button id="leftHeading"><img src="https://cdn.discordapp.com/attachments/746851286422519928/746851357872619520/esquerda2.png"></button>
+                <button id="handsUp"><img src="https://cdn.discordapp.com/attachments/746851286422519928/746851358967070761/mao.png"></button>
+                <button id="rightHeading"><img src="https://cdn.discordapp.com/attachments/746851286422519928/746851355368358060/direita2.png"></button>
+            </div>
+        </div>
+    </div>
+    <script src="ui.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
