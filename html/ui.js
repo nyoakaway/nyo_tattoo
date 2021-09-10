@@ -50,7 +50,7 @@ $(document).ready(function() {
                         let price = tattooShop[atualPart].tattoo[i].price;
                             $("footer").append(`
                                 <div class="item-tattoo" data-partname="${partName}" data-partid="${i}" data-parttype="${atualPart}" onclick="select(this)" id="${atualPart}${i}">
-                                    <div class="img-tattoo" style="background-image: url('assets/${partName}.png')">  
+                                    <div class="img-tattoo" style="background-image: url('https://127.0.0.1/${atualPart}/${dlcName}/${partName}.jpg')">  
                                         <div class="overlay">
                                             <span>${i} ${customname} ${price}</span>
                                         </div>
@@ -83,7 +83,7 @@ function updateLoja(atualPart) {
                 let price = tattooShop[atualPart].tattoo[i].price;
                     $("footer").append(`
                         <div class="item-tattoo" data-partname="${partName}" data-partid="${i}" data-parttype="${atualPart}" onclick="select(this)" id="${atualPart}${i}">
-                            <div class="img-tattoo" style="background-image: url('assets/${partName}.png')">  
+                            <div class="img-tattoo" style="background-image: url('https://127.0.0.1/${atualPart}/${dlcName}/${partName}.jpg')">  
                                 <div class="overlay">
                                 <span>${i} - ${customname}</span>
                                 </div>
